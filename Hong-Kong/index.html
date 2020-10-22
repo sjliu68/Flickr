@@ -3,7 +3,7 @@
 
 <head>
   <meta charset='utf-8' />
-  <title>Toronto Flickr Map</title>
+  <title>Hong Kong Flickr Map</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
@@ -28,7 +28,7 @@
       container: "map",
       // style: "mapbox://styles/mapbox/streets-v11",
       style: "mapbox://styles/mapbox/satellite-streets-v9",
-      center: [-79.4, 43.6],
+      center: [114.18, 22.05],
       zoom: 12
     });
 
@@ -39,7 +39,7 @@
         'type': 'fill',
         'source': {
           'type': 'geojson',
-          'data': 'data/Toronto.geojson'
+          'data': 'Hong-Kong.geojson'
         },
         'paint': {
           // 'fill-color': 'rgba(200, 100, 240, 0.4)',
